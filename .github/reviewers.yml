@@ -1,0 +1,16 @@
+---
+# you can use glob pattern
+"**/*.md":
+  - Vikash-8090-Yadav
+
+".github/workflows/*.yml":
+  - Vikash-8090-Yadav
+
+# you can set multiple reviewers
+".github/**/*.yml":
+  - Vikash-8090-Yadav
+  - Omega12Prime
+
+# you can set team reviewers (repo scope token required)
+".github/**/*.md":
+  - team: baz
